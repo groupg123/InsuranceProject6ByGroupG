@@ -18,7 +18,7 @@ public class Premium {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private int premiumid;
+	private int premiumid;	
 	private String customername;
 	private int premiumamount;
 	private String premiumStartDate;

@@ -25,5 +25,7 @@ public class PremiumUpdateRestController {
 		Premium premium2 = premiumUpdateService.updatePremiumDetails(premium);
 		return premium2;
 	}
+	
+	
 
 }
